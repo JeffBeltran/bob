@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Jeffbeltran\Bob\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BobCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'bob';
 
     public $description = 'My command';
 

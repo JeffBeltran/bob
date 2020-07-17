@@ -1,17 +1,17 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "jeffbeltran/bob",
+    "description": "This is a Laravel package that will allow you to create query scopes that can be applied to an API's Endpoint dynamically via Query Strings.",
     "keywords": [
-        "spatie",
-        ":package_name"
+        "jeffbeltran",
+        "bob"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/jeffbeltran/bob",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Jeff Beltran",
+            "email": "jeffbeltran@gmail.com",
+            "homepage": "https://jeffbeltran.com",
             "role": "Developer"
         }
     ],
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Jeffbeltran\\Bob\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Jeffbeltran\\Bob\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Jeffbeltran\\Bob\\BobServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Bob": "Jeffbeltran\\Bob\\BobFacade"
             }
         }
     },
