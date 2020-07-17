@@ -1,8 +1,8 @@
 # Bob - An API Query String Builder
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffbeltran/bob.svg?style=flat-square)](https://packagist.org/packages/jeffbeltran/bob)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/jeffbeltran/bob/run-tests?label=tests)](https://github.com/jeffbeltran/bob/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/jeffbeltran/bob.svg?style=flat-square)](https://packagist.org/packages/jeffbeltran/bob)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffbeltran/bob.svg?style=for-the-badge)](https://packagist.org/packages/jeffbeltran/bob)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/jeffbeltran/bob/Tests?style=for-the-badge)](https://github.com/jeffbeltran/bob/actions?query=workflow%3Atests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/jeffbeltran/bob.svg?style=for-the-badge)](https://packagist.org/packages/jeffbeltran/bob)
 
 This is a Laravel package that will allow you to create query scopes that can be applied to an API's Endpoint dynamically via Query Strings.
 
